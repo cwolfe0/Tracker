@@ -1,6 +1,6 @@
-# Physoon2.0
-This is the Eagle schematic and board file for the Physoon 2.0 (HAB Geiger Counters).
-It externally interfaces with 2 geiger counters and processes the data before sending it via APRS and saving it on an SD card.
+# SHC HAB Tracker
+This is the Eagle schematic and board file for the Space Hardware Club HAB tracker.
+It is capable of recording GPS, rotation data, pressure and temperature and sending the information via APRS and recording it to an SD card.
 
 The board uses a:
 - GPS
@@ -8,14 +8,13 @@ The board uses a:
 - MCU
 - 5V Regulator
 - 3.3V Regulator
-- 6 Surefire CR123A in parallel sets of 3 in series.
+- 2 Surefire C123A Batteries in series (6V, 3000mAh)
 - APRS-capable Radio
 - 2 Logic Gates (for allowing 5V input to the radio from the MCU)
 - Pressure Sensor
-- Thermistor
-- ON-MOM Switch
+- Slider Switch
 - PDI Interface
 
-![Top Image](http://i.imgur.com/LrOOLHD.png "Top of Board")
-![Bottom Image](http://i.imgur.com/W7NVaVX.png "Bottom of Board")
-![Board Image](https://i.imgur.com/UrV4KWR.png "Board Image")
+![Top Image](https://i.imgur.com/mmGGDcZ.png "Top of Board")
+![Bottom Image](https://i.imgur.com/BSFgt9s.png "Bottom of Board")
+![Board Image](https://i.imgur.com/wUaNdkp.png "Board Image")
